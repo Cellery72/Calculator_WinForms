@@ -33,10 +33,10 @@
             this.ClearButton = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
             this.DivideButton = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.SevenButton = new System.Windows.Forms.Button();
             this.EightButton = new System.Windows.Forms.Button();
             this.NineButton = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.MultiplicationButton = new System.Windows.Forms.Button();
             this.FourButton = new System.Windows.Forms.Button();
             this.FiveButton = new System.Windows.Forms.Button();
             this.SixButton = new System.Windows.Forms.Button();
@@ -46,7 +46,7 @@
             this.ThreeButton = new System.Windows.Forms.Button();
             this.AdditionButton = new System.Windows.Forms.Button();
             this.ZeroButton = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.DecimalButton = new System.Windows.Forms.Button();
             this.EqualityButton = new System.Windows.Forms.Button();
             this.PlusMinusButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -61,7 +61,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.Controls.Add(this.PlusMinusButton, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.EqualityButton, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.button18, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.DecimalButton, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.ZeroButton, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.AdditionButton, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.ThreeButton, 2, 3);
@@ -71,10 +71,10 @@
             this.tableLayoutPanel1.Controls.Add(this.SixButton, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.FiveButton, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.FourButton, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button7, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.MultiplicationButton, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.NineButton, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.EightButton, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SevenButton, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.DivideButton, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.BackButton, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.ClearButton, 1, 0);
@@ -126,14 +126,14 @@
             this.DivideButton.Text = "/";
             this.DivideButton.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // SevenButton
             // 
-            this.button4.Location = new System.Drawing.Point(3, 61);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 52);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "7";
-            this.button4.UseVisualStyleBackColor = true;
+            this.SevenButton.Location = new System.Drawing.Point(3, 61);
+            this.SevenButton.Name = "SevenButton";
+            this.SevenButton.Size = new System.Drawing.Size(118, 52);
+            this.SevenButton.TabIndex = 4;
+            this.SevenButton.Text = "7";
+            this.SevenButton.UseVisualStyleBackColor = true;
             // 
             // EightButton
             // 
@@ -153,14 +153,14 @@
             this.NineButton.Text = "9";
             this.NineButton.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // MultiplicationButton
             // 
-            this.button7.Location = new System.Drawing.Point(375, 61);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(118, 52);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "*";
-            this.button7.UseVisualStyleBackColor = true;
+            this.MultiplicationButton.Location = new System.Drawing.Point(375, 61);
+            this.MultiplicationButton.Name = "MultiplicationButton";
+            this.MultiplicationButton.Size = new System.Drawing.Size(118, 52);
+            this.MultiplicationButton.TabIndex = 7;
+            this.MultiplicationButton.Text = "*";
+            this.MultiplicationButton.UseVisualStyleBackColor = true;
             // 
             // FourButton
             // 
@@ -243,14 +243,14 @@
             this.ZeroButton.Text = "0";
             this.ZeroButton.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // DecimalButton
             // 
-            this.button18.Location = new System.Drawing.Point(251, 235);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(118, 52);
-            this.button18.TabIndex = 18;
-            this.button18.Text = ".";
-            this.button18.UseVisualStyleBackColor = true;
+            this.DecimalButton.Location = new System.Drawing.Point(251, 235);
+            this.DecimalButton.Name = "DecimalButton";
+            this.DecimalButton.Size = new System.Drawing.Size(118, 52);
+            this.DecimalButton.TabIndex = 18;
+            this.DecimalButton.Text = ".";
+            this.DecimalButton.UseVisualStyleBackColor = true;
             // 
             // EqualityButton
             // 
@@ -292,7 +292,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button CEButton;
         private System.Windows.Forms.Button EqualityButton;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button DecimalButton;
         private System.Windows.Forms.Button ZeroButton;
         private System.Windows.Forms.Button AdditionButton;
         private System.Windows.Forms.Button ThreeButton;
@@ -302,10 +302,10 @@
         private System.Windows.Forms.Button SixButton;
         private System.Windows.Forms.Button FiveButton;
         private System.Windows.Forms.Button FourButton;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button MultiplicationButton;
         private System.Windows.Forms.Button NineButton;
         private System.Windows.Forms.Button EightButton;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button SevenButton;
         private System.Windows.Forms.Button DivideButton;
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button ClearButton;
